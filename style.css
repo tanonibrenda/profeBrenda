@@ -1,26 +1,36 @@
-*{
+* {
     margin: 0;
     padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-main{
-    
-    background-color: indigo;
-    color: white;
-    width: 100%;
-    height: 60vh;
-    border-radius: 15px;
+.resaltado {
+    background-color: indigo !important;
+    color: white !important;
+    width: 100% !important;
+    height: 60vh !important;
+    border-radius: 15px !important;
+
 }
-#gen{
+.content-container {
+    background-color: inherit; /* Asegura que el fondo se mantenga indigo */
+}
+.nucleotide-image {
+    display: block; /* Asegura que la imagen no cause problemas con el fondo */
+    margin: 0 auto; /* Centra la imagen */
+}
+#gen {
     max-height: 100px;
 }
-#profe{
+#profe {
     padding-top: 30vh;
 }
-#biologia{
-    background-color: rgb(209, 241, 220);
-    color: black;
-    
-}
-#biologia h1{
+
+#blg {
     text-align: center;
+}
+.fondoBlanco{
+    background-color: white;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
 }
